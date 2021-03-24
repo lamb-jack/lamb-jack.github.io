@@ -1,0 +1,55 @@
+
+body {
+  background-color: #ededed;
+}
+
+/* Navbar */
+
+#navleft {
+  font-family: condensed;
+  font-weight: bold;
+  color: white;
+  background-color: #4AAAA5;
+  font-size: x-large;
+  padding: 10px 15px 10px 10px;
+  margin-left: -5px;
+  margin-top: -10px;
+  margin-bottom: -8px;
+}
+
+#navnav {
+  background-color: #f8f9fa;
+}
+
+/* Content */
+
+h1, h2, h3 {
+  color: #4AAAA5;
+  font-family: condensed;
+  font-weight: bold;
+}
+
+p {
+  color:#aaabab;
+}
+
+#hamburger {
+  visibility: hidden;
+}
+
+@media (max-width: 767px){
+
+  #hamburger {
+    visibility: visible;
+    background-color: #4AAAA5;
+  }
+
+  #navnav {
+    background-color: #4AAAA5;
+  }
+
+  body {
+    background-color:white;
+  }
+  
+}

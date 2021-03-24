@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latitudee Analysis</title>
+    <title>Comparison</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -44,45 +44,32 @@
 
   <main>
 
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-lg-7 bg-white pt-5 p-md-5 mt-md-5 mr-lg-4">
-            <h1>Summary: Latitude vs. X</h1>
-            <hr>
-            <img class="img-fluid rounded float-left w-50" src="Resources/assets/images/Fig1.png">
-            <p>
-              The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, 
-              we first pulled data from the OpenWeather Map API to assemble a dataset on over 500 cities.
-              <br>
-              <br>
-              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at 
-              included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part
-              of the analysis, as well explanations and descriptions of any trends and correlations witnessed.
-            </p>     
-        </div>
+    <div class="container">      
+        <div class="row justify-content-center">
+          <div class="col-md-10 bg-white my-md-5 p-5">
+            <h2>Comparison: Latitude vs. X</h2>
+                  <hr>
+                  <p><small>Click any plot to get an in-depth analysis.</small></p>
 
-        <div class="col-lg-4 bg-white pt-5 pb-md-5 mb-lg-5 px-4 mt-md-5">
-          <h3>Visualizations</h3>
-            <hr>
-          <div class="row">
-            <div class="col-3 col-lg-6">
-              <a href="Visualizations/MaxTemperature.html"><img class="img-fluid" alt="Responsive image" src="Resources/assets/images/Fig1.png">
-            </div>
-            <div class="col-3 col-lg-6">
-              <a href="Visualizations/Humidity.html"><img class="img-fluid" alt="Responsive image" src="Resources/assets/images/Fig2.png">
-            </div>
-            <div class="col-3 col-lg-6">
-              <a href="Visualizations/Cloudiness.html"><img class="img-fluid" alt="Responsive image" src="Resources/assets/images/Fig3.png">
-            </div>
-            <div class="col-3 col-lg-6">
-              <a href="Visualizations/WindSpeed.html"><img class="img-fluid" alt="Responsive image" src="Resources/assets/images/Fig4.png">
-            </div>                           
+                  <div class="row">
+                    <div class="col-md-6">
+                      <a href="Visualizations/MaxTemperature.html"><img id="imgsm" class="img-fluid" src="Resources/assets/images/Fig1.png"></a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="Visualizations/Humidity.html"><img id="imgsm" class="img-fluid" src="Resources/assets/images/Fig2.png"></a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="Visualizations/Cloudiness.html"><img id="imgsm" class="img-fluid" src="Resources/assets/images/Fig3.png"></a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="Visualizations/WindSpeed.html"><img id="imgsm" class="img-fluid" src="Resources/assets/images/Fig4.png"></a>
+                    </div>
+                  </div>
+    
+              
           </div>
-        </div>        
-
-      </div>
-    </div>    
+          </div>          
+        </div>    
 
   </main>       
 
@@ -93,3 +80,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </html>
+
